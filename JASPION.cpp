@@ -1,8 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   JASPION.cpp
+ * Author: matteus
+ *
+ * Created on 20 de Dezembro de 2015, 11:27
+ */
+
+#include <cstdlib>
 #include<iostream>
 #include<map>
 #include<algorithm>
 using namespace std;
-int main(){
+int main(int argc, char** argv) {
     int t,m,n;
     typedef map<string,string,less<string> > dicionario;
     dicionario dic;
@@ -44,5 +58,6 @@ int main(){
     }
     return 0;
 }
+
 
 
